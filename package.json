@@ -1,0 +1,10 @@
+{
+  "name": "birthday-gift-app",
+  "version": "1.0.0",
+  "description": "Happy 21st, My Favourite Human",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
+

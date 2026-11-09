@@ -1,0 +1,36 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `.App {
+    text-align: left;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+}
+
+.section {
+    position: relative;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding-top: 8.5rem;
+        padding-bottom: 8.5rem;
+    }
+}
+
+.eyebrow-script {
+    font-family: 'Sacramento', cursive;
+    color: #C1708C;
+    letter-spacing: 0.02em;
+}
+`, "",{"version":3,"sources":["webpack://./src/App.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,WAAW;AACf;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI;QACI,mBAAmB;QACnB,sBAAsB;IAC1B;AACJ;;AAEA;IACI,kCAAkC;IAClC,cAAc;IACd,sBAAsB;AAC1B","sourcesContent":[".App {\n    text-align: left;\n}\n\nmain {\n    position: relative;\n    z-index: 10;\n}\n\n.section {\n    position: relative;\n    padding-top: 6.5rem;\n    padding-bottom: 6.5rem;\n}\n\n@media (min-width: 768px) {\n    .section {\n        padding-top: 8.5rem;\n        padding-bottom: 8.5rem;\n    }\n}\n\n.eyebrow-script {\n    font-family: 'Sacramento', cursive;\n    color: #C1708C;\n    letter-spacing: 0.02em;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {};
+export default ___CSS_LOADER_EXPORT___;
